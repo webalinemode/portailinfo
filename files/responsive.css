@@ -1,0 +1,178 @@
+/**
+ * Responsive design desktop / mobile
+ */
+
+@media screen and (max-width: 1280px) {
+	* {
+		font-size:1.05em;
+	}
+
+	.commentaire{
+		font-size:1em;
+	}
+
+	#titre {
+		display: block;
+		float: left;
+		margin: 4em 0 4em 1em;
+		text-align: center;
+	}
+
+	#bloc_logon div label{
+		width:40%;
+	}
+
+	#bloc_logon #user, #bloc_logon #password{
+		width:40%;
+	}
+
+	.bouton{
+		font-size:1.15em;
+	}
+
+
+	#bloc_securid_confirmed_password label{
+		width:528px;
+	}
+	
+	#bloc_password{
+		display:block;
+	}
+	
+	#revealer
+	{
+	    left:-20%;   
+	}
+}
+
+@media screen and (min-width: 861px) and (max-width: 890px) {
+	#revealer
+	{
+    	left:-18%;   
+	}
+}
+
+@media screen and (min-width: 841px) and (max-width: 860px) {
+	#revealer
+	{
+    	left:-16%;   
+	}
+}
+
+@media screen and (min-width: 802px) and (max-width: 840px) {
+	#revealer
+	{
+    	left:-14%;   
+	}
+}
+
+@media screen and (max-width: 801px)  {
+	* {
+		font-size:1.08em;
+	}
+
+	div.error{
+		word-wrap:break-word;
+		margin-right:5px;
+	}
+	
+	.commentaire{
+		font-size:1em;
+	}
+	
+	#container {
+		position:absolute;
+		left: 0px;
+		top: 0px;
+		background: #FFFFFF;
+		text-align: left;
+		width:100%;
+	}
+		
+	.message{
+		text-align:center;
+	}
+	
+	#titre_img,#titre_img_small2{
+		display:none;
+	}
+	
+	#titre_img_small{
+		display:inline;
+	}
+		
+	#bloc_user, #bloc_password, #bloc_securid div{
+		margin-bottom:15px;
+	}
+	
+	
+
+	#bloc_logon #user, #bloc_logon #password, #bloc_logon div label, #bloc_securid div label{
+		width:100%;
+		float:none;
+		display:block;
+		text-align:center;
+	}
+	
+	#titre{
+		margin:0 0 2em 0;
+		padding:1em 5px 0 0;
+		background-color:#DEEDF4;
+		background-image:url("../images/logo_MEN2_small.png");
+		background-repeat:no-repeat;
+		min-height:90px;
+		text-align:right;
+	}
+	
+	body #bandeau_large{
+		background-image:none;
+		display:none;
+	}
+	
+	input, #user, #password{
+		display: block;
+		width: 100%;
+		margin:0px;
+		text-align:center;
+		float:none;
+	}
+
+	form div{
+		text-align:center;
+	}
+
+	#revealer
+	{
+    	top:-28px;
+    	left:0;   
+	}
+}
+
+@media screen and (max-width: 360px)  {
+	* {
+		font-size:1.05em;
+	}
+		
+	.commentaire{
+		font-size:0.9em;
+	}
+	
+	
+	#titre_img,#titre_img_small{
+		display:none;
+	}
+	
+	#titre_img_small2{
+		display:inline;
+	}
+}
+
+@media screen and (max-width: 320px)  {
+	*{
+		font-size:1.04em;
+	}
+	.commentaire{
+		font-size:0.8em;
+	}	
+	
+}

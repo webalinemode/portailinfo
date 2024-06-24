@@ -1,0 +1,235 @@
+html {height: 100%;}
+
+body {
+	font: .8em Arial, Verdana, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #29304C;
+	height: 100%;
+}
+
+body.bandeau {
+	/*background-image:url(../images/bg_bandeau.gif);*/
+	background-repeat:repeat-y;
+}
+
+body.bandeau_large {
+	/*background-image:url(../images/bg_bandeau_large.gif);*/
+	background-repeat:repeat-y;
+}
+
+a {color: #CB0737;}
+
+img {vertical-align:top; border: none;}
+
+#bandeau {
+	float: left;
+	width: 32px;
+	margin-top: 10px;
+}
+
+#bandeau_large {
+	float: left;
+	width: 240px;
+	padding: 0;
+	margin:0;
+}
+
+#container {
+	position:absolute;
+	left: 246px;
+	top: 3px;
+	background: #FFFFFF;
+	text-align: left;
+}
+
+#profil {
+	color: #960FCA;
+	font-size: 1.1em;
+	line-height: 1em;
+	margin: 0.5em 1em 0 1em;
+	padding-bottom: 0.1em;
+	border-bottom: 2px solid #06B1CB;
+}
+
+#profil .nom {float:left; font-weight:bold;}
+#profil .connexion {float: right; font-weight: bold;}
+
+#titre_img{
+	display:inline;
+}
+
+#titre_img_small,#titre_img_small2{
+	display:none;
+}
+
+
+
+#titre {
+	display:block;
+	float: left;
+	margin: 5em 0 8em 1em;
+	text-align:center;
+}
+
+#boutons {
+	float: right;
+	margin: 1.5em .6em 0 0;
+}
+
+#footer {
+	font-size: .7em;
+	color: #9C0FCA;
+	text-align: center;
+	padding: 0;
+	margin-top: 15px;
+}
+
+#footer a {color: #9C0FCA;}
+
+h1 {
+	font-size: 1.5em;
+	padding: 0;
+	padding-left: 25px;
+	background-image: url(../images/portail_fleche.gif);
+	background-position: left;
+	background-repeat:no-repeat;
+	margin: 40px 0 10px 20px;
+	color: #06B1CB;
+}
+
+h2 {
+	font-size: 1.2em;
+	padding: 10px 0 0 40px;
+	margin: 0;
+	color: #960FCA;
+	}
+
+h2 a {color: #960FCA;}
+
+.commentaire { margin: 0;}
+
+div.login {
+	font-size: 1.5em;
+	padding: 0;
+	padding-left: 25px;
+	margin: 0 0 10px 20px;
+	color: #06B1CB;
+        font-weight: bold;
+}
+
+div.error {
+	font-size: 1.5em;
+	padding: 0;
+	padding-left: 25px;
+	margin: 0 0 10px 20px;
+	color: #990000;
+        font-weight: bold;
+}
+
+.contour_table {
+        margin-left: 20px;
+	padding: 10px;
+}
+
+.contour_top {
+        margin-left: 40px;
+	background-image:url(../images/contour_bleu_vert_top_left.gif);
+	background-repeat:no-repeat;
+        background-position: top left;
+        padding-top: 10px;
+        padding-left: 15px;
+}
+
+.contour_bottom {
+        margin-right: 40px;
+	background-image:url(../images/contour_bleu_vert_bottom_right.gif);
+	background-repeat:no-repeat;
+        background-position: bottom right;
+        padding-bottom: 10px;
+        padding-right: 15px;
+}
+
+label {
+	color: #999;
+	text-align: left;
+	/*display:inline-block;*/
+}
+
+input {border: 1px solid #06B1CB;}
+
+.bouton {
+	color: #fff;
+	font-weight: bold;
+	background-color: #06B1CB;
+	border: none;
+}
+
+.droite {float: right;}
+.gauche {float: left;}
+.cleaner {clear: both;}
+
+.t_centre {text-align: center;}
+.t_gauche {text-align: left;}
+.t_droite {text-align: right;}
+
+.gras, th.gras{font-weight: bold;}
+
+#bloc_logon #user, #bloc_logon #password{
+	width:200px;
+}
+
+#bloc_logon div label{
+	display:inline-block;
+}
+
+#bloc_securid div label{
+	display:inline-block;
+	width: 100%;
+}
+
+#bloc_user input, #bloc_password input{
+	margin:0px;
+	padding:0px;
+}
+
+#bloc_submit{
+	text-align:center;
+}
+
+#bloc_user, #bloc_password, #bloc_submit, #bloc_securid div{
+	padding:6px;
+}
+
+#bloc_securid2 div{
+	padding:5px;
+}
+
+#bloc_securid_confirmed_password{
+	margin-top:10px;
+}
+
+#bloc_securid_confirmed_password label{
+	width:375px;
+	display: inline-block;
+}
+
+#bloc_password{
+	display:inline-block;
+}
+
+#password{
+	vertical-align:top;
+}
+
+#revealer
+{
+    background:url("../images/icon-eye-open.png") no-repeat center;
+    width:30px;
+    float: right;
+    position: relative;
+    top: 0;
+    cursor:pointer;
+    left:-30px;
+}
